@@ -1,0 +1,115 @@
+body {
+  background-image: url('../Assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+    margin-top: 50px;
+    max-width: 899px;
+    height: 426px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    z-index: 1;
+   
+    margin-bottom: 60px;
+  }
+  .heading1{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .row {
+    display: flex;
+    gap: 40px; /* Gap between the inputs */
+    margin-bottom: 20px; /* Space between rows */
+    margin-right: 15px;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 140px;
+    height: 47px;
+    
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: purple;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    margin-top: 20px; /* Adds space between the form and button */
+  }
+  /* Button container for proper alignment */
+.button-container1 {
+  display: flex;
+  justify-content: right; /* Align buttons to the left and right */
+  margin-top: 20px; /* Adds space above the buttons */
+  gap: 20px;
+}
+
+/* Button styling */
+.button-container1 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.button-container1 button:hover {
+  background-color: purple;
+}
+
+/* Styling for the Back button */
+.button-container1 button[type="button"] {
+  background-color: grey;
+}
+
+/* Hover effect for the Back button */
+.button-container1 button[type="button"]:hover {
+  background-color: darkgrey;
+}
+
+  

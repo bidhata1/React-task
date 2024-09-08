@@ -1,0 +1,22 @@
+.progressBar {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 21rem;
+  }
+  
+  .step {
+    width: 25%;
+    height: 4px;
+    background-color: grey;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  
+  .step.active {
+    background-color:green;
+  }
+  

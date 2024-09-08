@@ -1,0 +1,33 @@
+.gender {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .gender label {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between the radio button and label */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .gender input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Optional styling for the label and container */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .gender input[type="radio"]:hover {
+    cursor: pointer;
+    transform: scale(1.1); /* Slightly enlarges on hover */
+  }
+  
+  .gender input[type="radio"]:focus {
+    outline: 2px solid blue; /* Focus outline for accessibility */
+  }
+  
